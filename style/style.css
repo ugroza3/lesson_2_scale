@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/* .wrap{
+display: inline-block;
+align-items: center;
+} */
+.cats_all{
+  display: inline-block;
+  margin: 15% auto;
+  border: 3px solid #000000;
+  margin-left: 120px;
+}
+.cat_scale{
+  transition: transform 1s ease;
+  overflow: hidden;
+}
+.cat_scale:hover{
+  transform: scale(1.2) rotate(-7deg);
+}
